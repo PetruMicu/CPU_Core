@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "/tools/Xilinx/Vivado/2023.1/bin/DSD_core/DSD_core.runs/synth_1/seq_core.tcl"
+  variable script "/home/petru/Facultate/DSD/DSD_Core/DSD_core.runs/synth_1/seq_core.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,22 +70,30 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param checkpoint.writeSynthRtdsInDcp 1
+set_param synth.incrementalSynthesisCache ./.Xil/Vivado-5554-PetruMint/incrSyn
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xa7z020clg400-1Q
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir /tools/Xilinx/Vivado/2023.1/bin/DSD_core/DSD_core.cache/wt [current_project]
-set_property parent.project_path /tools/Xilinx/Vivado/2023.1/bin/DSD_core/DSD_core.xpr [current_project]
+set_property webtalk.parent_dir /home/petru/Facultate/DSD/DSD_Core/DSD_core.cache/wt [current_project]
+set_property parent.project_path /home/petru/Facultate/DSD/DSD_Core/DSD_core.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo /tools/Xilinx/Vivado/2023.1/bin/DSD_core/DSD_core.cache/ip [current_project]
+set_property ip_output_repo /home/petru/Facultate/DSD/DSD_Core/DSD_core.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog /tools/Xilinx/Vivado/2023.1/bin/DSD_core/DSD_core.srcs/sources_1/new/macros.vh
-read_verilog -library xil_defaultlib /tools/Xilinx/Vivado/2023.1/bin/DSD_core/DSD_core.srcs/sources_1/new/seq_core.v
+read_verilog /home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/macros.vh
+read_verilog -library xil_defaultlib {
+  /home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/alu_module.v
+  /home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/reg_module.v
+  /home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/seq_core.v
+}
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -96,6 +104,8 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental /home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/utils_1/imports/synth_1/seq_core.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

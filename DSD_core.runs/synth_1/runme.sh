@@ -21,7 +21,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/tools/Xilinx/Vivado/2023.1/bin/DSD_core/DSD_core.runs/synth_1'
+HD_PWD='/home/petru/Facultate/DSD/DSD_Core/DSD_core.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
