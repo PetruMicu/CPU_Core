@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+96,true,"/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v"

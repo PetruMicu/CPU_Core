@@ -3,8 +3,8 @@
 # SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Mon Nov  6 00:33:55 2023
-# Process ID: 49151
+# Start of session at: Tue Nov  7 02:28:08 2023
+# Process ID: 74640
 # Current directory: /home/petru/Facultate/DSD/DSD_Core/DSD_core.runs/synth_1
 # Command line: vivado -log seq_core.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source seq_core.tcl
 # Log file: /home/petru/Facultate/DSD/DSD_Core/DSD_core.runs/synth_1/seq_core.vds

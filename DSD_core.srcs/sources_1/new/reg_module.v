@@ -37,10 +37,11 @@ reg [`D_SIZE-1:0] registers [0:`R_NUM-1]; // 8 internal registers R0 to R7
 integer idx;
 
 /*resetting all register if reset signal is logic 0*/
-always@(*)
-if (rst == 1'b0) begin
-    for (idx = 0; idx < `R_NUM; idx = idx + 1) begin
-        registers[idx] = 0;
+always@(*) begin
+    if (rst == 1'b0) begin
+        for (idx = 0; idx < `R_NUM; idx = idx + 1) begin
+            registers[idx] <= 0;
+        end
     end
 end
 

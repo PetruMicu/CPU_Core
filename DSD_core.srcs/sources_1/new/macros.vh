@@ -26,25 +26,25 @@
 `define COND       2'b11
 
 /*ARITHMETIC*/
-`define ADD      4'b0001
-`define ADDF     4'b0010
-`define SUB      4'b0011
-`define SUBF     4'b0100
-`define AND      4'b0101
-`define OR       4'b0110
-`define XOR      4'b0111
-`define NAND     4'b1000
-`define NXOR     4'b1001
+`define ADD      7'b000_0001
+`define ADDF     7'b000_0010
+`define SUB      7'b000_0011
+`define SUBF     7'b000_0100
+`define AND      7'b000_0101
+`define OR       7'b000_0110
+`define XOR      7'b000_0111
+`define NAND     7'b000_1000
+`define NXOR     7'b000_1001
 
 /*SHIFT*/
-`define SHIFTR   4'b0000
-`define SHIFTRA  4'b0001
-`define SHIFTL   4'b0010
+`define SHIFTR   7'b010_0000
+`define SHIFTRA  7'b010_0001
+`define SHIFTL   7'b010_0010
 
 /*MEM*/
-`define LOAD     4'b0000
-`define LOADC    4'b0001
-`define STORE    4'b0010
+`define LOAD     5'b1_0000
+`define LOADC    5'b1_0001
+`define STORE    5'b1_0010
 
 /*COND*/
 `define JMP      4'b1100
@@ -59,3 +59,10 @@
 /*OPCODES*/
 `define OP_SIZE 4
 `define OP_TYPE 2
+
+/*CONDITIONS*/
+
+`define N   3'b000
+`define NN  3'b001
+`define Z   3'b010
+`define NZ  3'b011

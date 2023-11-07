@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+Data1_out = 000000ff, Data2_out = 000000ff
+$finish called at time : 80 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_1/new/reg_module_tb.v" Line 78
