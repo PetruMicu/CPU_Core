@@ -49,13 +49,22 @@ seq_core cpu(
     .data_out(data_out)
 );
 
+ram_module ram (
+    .clk (clk),
+    .read_enable(read_enable),
+    .write_enable(write_enable),
+    .address(memory_addr),
+    .data_in(data_out),
+    .data_out(data_in)
+);
+
 integer i;
 
 // Initialize clock and reset
   initial begin
     clk = 0;
     rst = 0;
-    #6 rst = 1; // Release reset after 10 time units
+    #6 rst = 1; // Release reset after 6 time units
   end
 
   // Generate a clock signal
@@ -69,7 +78,7 @@ endtask
 
   // Populate program memory
   initial begin
-    // Example: LOADC R0, 16
+
     prog_mem[0] = {`NOP};
     prog_mem[1] = {`LOADC, `R0, 8'hA0};
     prog_mem[2] = {`LOADC, `R1, 8'h08};
@@ -82,10 +91,11 @@ endtask
     prog_mem[9] = {`JMPR, 6'd0, 6'b11_1110};
     prog_mem[10] = {`JMPcond, `NZ, `R2, 3'd0, `R5};
     prog_mem[11] = {`JMPRcond, `NZ, `R2, 6'b11_1110};
-    prog_mem[12] = {`HALT};
+    prog_mem[12] = {`STORE, `R5, 5'd0, `R4};
+    prog_mem[13] = {`LOAD, `R0, 5'd0, `R5};
+    prog_mem[14] = {`HALT};
     instruction = prog_mem[0];
-    // Add more instructions as needed
-    // prog_mem[1] = {opcode, destination_register, immediate_value};
+    
   end
 
   // Simulate program execution

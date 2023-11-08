@@ -1,6 +1,6 @@
 
 *** Running vivado
-    with args -log seq_core.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source seq_core.tcl
+    with args -log alu_module.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source alu_module.tcl
 
 
 ****** Vivado v2023.1 (64-bit)
@@ -10,11 +10,11 @@
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 
-source seq_core.tcl -notrace
+source alu_module.tcl -notrace
 Command: read_checkpoint -auto_incremental -incremental /home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/utils_1/imports/synth_1/seq_core.dcp
 INFO: [Vivado 12-5825] Read reference checkpoint from /home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/utils_1/imports/synth_1/seq_core.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
-Command: synth_design -top seq_core -part xa7z020clg400-1Q
+Command: synth_design -top alu_module -part xa7z020clg400-1Q
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xa7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xa7z020'
@@ -22,128 +22,28 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 74653
+INFO: [Synth 8-7075] Helper process launched with PID 35297
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1684.355 ; gain = 338.832 ; free physical = 20220 ; free virtual = 38914
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1684.117 ; gain = 385.738 ; free physical = 22574 ; free virtual = 40989
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'seq_core' [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/seq_core.v:23]
-INFO: [Synth 8-6157] synthesizing module 'reg_module' [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/reg_module.v:24]
-INFO: [Synth 8-6155] done synthesizing module 'reg_module' (0#1) [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/reg_module.v:24]
 INFO: [Synth 8-6157] synthesizing module 'alu_module' [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/alu_module.v:24]
-INFO: [Synth 8-155] case statement is not full and has no default [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/alu_module.v:32]
 INFO: [Synth 8-6155] done synthesizing module 'alu_module' (0#1) [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/alu_module.v:24]
-INFO: [Synth 8-155] case statement is not full and has no default [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/seq_core.v:128]
-INFO: [Synth 8-155] case statement is not full and has no default [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/seq_core.v:154]
-INFO: [Synth 8-155] case statement is not full and has no default [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/seq_core.v:115]
-INFO: [Synth 8-6155] done synthesizing module 'seq_core' (0#1) [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/seq_core.v:23]
-WARNING: [Synth 8-3848] Net read in module/entity seq_core does not have driver. [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/seq_core.v:31]
-WARNING: [Synth 8-3848] Net write in module/entity seq_core does not have driver. [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/seq_core.v:32]
-WARNING: [Synth 8-3848] Net address in module/entity seq_core does not have driver. [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/seq_core.v:33]
-WARNING: [Synth 8-3848] Net data_out in module/entity seq_core does not have driver. [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/seq_core.v:35]
-WARNING: [Synth 8-7129] Port read in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port write in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[9] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[8] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[7] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[6] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[5] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[4] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[3] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[2] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[1] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[0] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[31] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[30] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[29] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[28] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[27] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[26] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[25] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[24] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[23] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[22] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[21] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[20] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[19] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[18] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[17] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[16] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[15] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[14] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[13] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[12] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[11] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[10] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[9] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[8] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[7] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[6] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[5] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[4] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[3] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[2] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[1] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[0] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[31] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[30] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[29] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[28] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[27] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[26] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[25] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[24] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[23] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[22] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[21] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[20] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[19] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[18] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[17] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[16] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[15] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[14] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[13] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[12] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[11] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[10] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[9] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[8] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[7] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[6] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[5] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[4] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[3] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[2] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[1] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_in[0] in module seq_core is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1752.324 ; gain = 406.801 ; free physical = 20130 ; free virtual = 38825
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1749.086 ; gain = 450.707 ; free physical = 22487 ; free virtual = 40902
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1767.168 ; gain = 421.645 ; free physical = 20130 ; free virtual = 38825
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1763.930 ; gain = 465.551 ; free physical = 22487 ; free virtual = 40902
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xa7z020clg400-1Q
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1775.172 ; gain = 429.648 ; free physical = 20130 ; free virtual = 38825
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1771.934 ; gain = 473.555 ; free physical = 22487 ; free virtual = 40902
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xa7z020clg400-1Q
-WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[0]' [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/reg_module.v:43]
-WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[1]' [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/reg_module.v:43]
-WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[2]' [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/reg_module.v:43]
-WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[3]' [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/reg_module.v:43]
-WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[4]' [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/reg_module.v:43]
-WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[5]' [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/reg_module.v:43]
-WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[6]' [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/reg_module.v:43]
-WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[7]' [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/reg_module.v:43]
-WARNING: [Synth 8-327] inferring latch for variable 'result_reg' [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/alu_module.v:34]
-WARNING: [Synth 8-327] inferring latch for variable 'register_write_addr_reg' [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/seq_core.v:50]
-WARNING: [Synth 8-327] inferring latch for variable 'register_data_in_reg' [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/seq_core.v:53]
-WARNING: [Synth 8-327] inferring latch for variable 'opcode_reg' [/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/seq_core.v:66]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1792.086 ; gain = 446.562 ; free physical = 20105 ; free virtual = 38801
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1788.848 ; gain = 490.469 ; free physical = 22463 ; free virtual = 40879
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
@@ -153,31 +53,12 @@ Detailed RTL Component Info :
 +---Adders : 
 	   2 Input   32 Bit       Adders := 1     
 	   3 Input   32 Bit       Adders := 1     
-	   2 Input   10 Bit       Adders := 3     
 +---XORs : 
 	   2 Input     32 Bit         XORs := 1     
-+---Registers : 
-	               10 Bit    Registers := 2     
-	                1 Bit    Registers := 1     
 +---Muxes : 
 	  10 Input   32 Bit        Muxes := 1     
-	   2 Input   32 Bit        Muxes := 5     
-	   3 Input   32 Bit        Muxes := 2     
-	   2 Input   10 Bit        Muxes := 12    
-	   4 Input   10 Bit        Muxes := 3     
-	   5 Input   10 Bit        Muxes := 1     
-	   3 Input   10 Bit        Muxes := 1     
-	   2 Input    6 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 1     
 	  13 Input    4 Bit        Muxes := 1     
-	   2 Input    3 Bit        Muxes := 5     
-	   5 Input    3 Bit        Muxes := 1     
-	   4 Input    3 Bit        Muxes := 3     
-	   3 Input    3 Bit        Muxes := 2     
-	   3 Input    2 Bit        Muxes := 1     
-	   2 Input    1 Bit        Muxes := 11    
-	  13 Input    1 Bit        Muxes := 1     
-	   5 Input    1 Bit        Muxes := 1     
-	   3 Input    1 Bit        Muxes := 2     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -195,147 +76,21 @@ No constraint files found.
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
-WARNING: [Synth 8-7129] Port read in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port write in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[9] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[8] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[7] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[6] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[5] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[4] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[3] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[2] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[1] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port address[0] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[31] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[30] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[29] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[28] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[27] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[26] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[25] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[24] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[23] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[22] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[21] in module seq_core is either unconnected or has no load
-WARNING: [Synth 8-7129] Port data_out[20] in module seq_core is either unconnected or has no load
-INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2103.789 ; gain = 758.266 ; free physical = 19773 ; free virtual = 38472
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1947.051 ; gain = 648.672 ; free physical = 22287 ; free virtual = 40705
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2103.789 ; gain = 758.266 ; free physical = 19773 ; free virtual = 38472
+Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1952.988 ; gain = 654.609 ; free physical = 22285 ; free virtual = 40703
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][31]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][30]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][29]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][28]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][27]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][26]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][25]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][24]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][23]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][22]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][21]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][20]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][19]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][18]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][17]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][16]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][15]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][14]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][13]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][12]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][11]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][10]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][9]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][8]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][7]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][6]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][5]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][4]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][3]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][2]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][1]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[0][0]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][31]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][30]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][29]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][28]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][27]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][26]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][25]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][24]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][23]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][22]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][21]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][20]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][19]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][18]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][17]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][16]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][15]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][14]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][13]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][12]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][11]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][10]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][9]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][8]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][7]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][6]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][5]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][4]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][3]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][2]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][1]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[1][0]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][31]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][30]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][29]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][28]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][27]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][26]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][25]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][24]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][23]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][22]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][21]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][20]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][19]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][18]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][17]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][16]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][15]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][14]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][13]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][12]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][11]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][10]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][9]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][8]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][7]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][6]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][5]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][4]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][3]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][2]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][1]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[2][0]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[3][31]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[3][30]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[3][29]__0) is unused and will be removed from module seq_core.
-WARNING: [Synth 8-3332] Sequential element (registers/registers_reg[3][28]__0) is unused and will be removed from module seq_core.
-INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2103.789 ; gain = 758.266 ; free physical = 19773 ; free virtual = 38472
+Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1952.988 ; gain = 654.609 ; free physical = 22285 ; free virtual = 40703
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -353,37 +108,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2103.789 ; gain = 758.266 ; free physical = 19773 ; free virtual = 38472
+Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1952.988 ; gain = 654.609 ; free physical = 22281 ; free virtual = 40699
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2103.789 ; gain = 758.266 ; free physical = 19773 ; free virtual = 38472
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1952.988 ; gain = 654.609 ; free physical = 22281 ; free virtual = 40699
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2103.789 ; gain = 758.266 ; free physical = 19773 ; free virtual = 38472
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1952.988 ; gain = 654.609 ; free physical = 22281 ; free virtual = 40699
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2103.789 ; gain = 758.266 ; free physical = 19773 ; free virtual = 38472
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1952.988 ; gain = 654.609 ; free physical = 22281 ; free virtual = 40699
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2103.789 ; gain = 758.266 ; free physical = 19773 ; free virtual = 38472
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1952.988 ; gain = 654.609 ; free physical = 22281 ; free virtual = 40699
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2103.789 ; gain = 758.266 ; free physical = 19773 ; free virtual = 38472
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1952.988 ; gain = 654.609 ; free physical = 22281 ; free virtual = 40699
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -396,40 +151,48 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+------+------+
-|      |Cell  |Count |
-+------+------+------+
-|1     |OBUF  |    10|
-|2     |OBUFT |    44|
-+------+------+------+
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    16|
+|2     |LUT2   |    72|
+|3     |LUT3   |     1|
+|4     |LUT4   |    98|
+|5     |LUT5   |    75|
+|6     |LUT6   |   167|
+|7     |IBUF   |    71|
+|8     |OBUF   |    32|
++------+-------+------+
 
 Report Instance Areas: 
 +------+---------+-------+------+
 |      |Instance |Module |Cells |
 +------+---------+-------+------+
-|1     |top      |       |    54|
+|1     |top      |       |   532|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2103.789 ; gain = 758.266 ; free physical = 19773 ; free virtual = 38472
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1952.988 ; gain = 654.609 ; free physical = 22281 ; free virtual = 40699
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 499 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2103.789 ; gain = 758.266 ; free physical = 19773 ; free virtual = 38472
-Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2103.797 ; gain = 758.266 ; free physical = 19773 ; free virtual = 38472
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1952.988 ; gain = 654.609 ; free physical = 22281 ; free virtual = 40699
+Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1952.996 ; gain = 654.609 ; free physical = 22281 ; free virtual = 40699
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2103.797 ; gain = 0.000 ; free physical = 20048 ; free virtual = 38748
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1964.895 ; gain = 0.000 ; free physical = 22548 ; free virtual = 40967
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2103.797 ; gain = 0.000 ; free physical = 20048 ; free virtual = 38747
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2084.703 ; gain = 0.000 ; free physical = 22497 ; free virtual = 40915
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: 4848fcd1
+Synth Design complete | Checksum: ab846d2c
 INFO: [Common 17-83] Releasing license: Synthesis
-26 Infos, 217 Warnings, 0 Critical Warnings and 0 Errors encountered.
+18 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 2103.797 ; gain = 758.273 ; free physical = 20048 ; free virtual = 38747
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1717.226; main = 1432.375; forked = 380.724
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3046.293; main = 2103.793; forked = 986.500
-INFO: [Common 17-1381] The checkpoint '/home/petru/Facultate/DSD/DSD_Core/DSD_core.runs/synth_1/seq_core.dcp' has been generated.
-INFO: [runtcl-4] Executing : report_utilization -file seq_core_utilization_synth.rpt -pb seq_core_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Nov  7 02:28:29 2023...
+synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2084.703 ; gain = 794.262 ; free physical = 22497 ; free virtual = 40915
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1340.376; main = 1340.376; forked = 0.000
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 2084.707; main = 2084.707; forked = 0.000
+INFO: [Common 17-1381] The checkpoint '/home/petru/Facultate/DSD/DSD_Core/DSD_core.runs/synth_1/alu_module.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file alu_module_utilization_synth.rpt -pb alu_module_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  8 02:42:13 2023...

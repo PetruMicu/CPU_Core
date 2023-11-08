@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xa7z020clg400-1Q" LaunchTime="1699316887" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/seq_core.dcp">
-  <File Type="VDS-TIMINGSUMMARY" Name="seq_core_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="seq_core.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="seq_core_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="seq_core_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="seq_core_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="seq_core.vds"/>
-  <File Type="REPORTS-TCL" Name="seq_core_reports.tcl"/>
-  <File Type="VDS-TIMING-PB" Name="seq_core_timing_summary_synth.pb"/>
-  <File Type="PA-TCL" Name="seq_core.tcl"/>
+<GenRun Id="synth_1" LaunchPart="xa7z020clg400-1Q" LaunchTime="1699404119" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/seq_core.dcp">
+  <File Type="VDS-TIMINGSUMMARY" Name="alu_module_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="alu_module.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="alu_module_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="alu_module_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="alu_module_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="alu_module.vds"/>
+  <File Type="REPORTS-TCL" Name="alu_module_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="alu_module_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="alu_module.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/macros.vh">
@@ -25,8 +25,17 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/ram.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/reg_module.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -34,6 +43,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/seq_core.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -41,7 +51,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="seq_core"/>
+      <Option Name="TopModule" Val="alu_module"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>

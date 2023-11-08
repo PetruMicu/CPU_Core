@@ -38,139 +38,137 @@ module seq_core(
 /*Internal registers signals*/
 reg register_write_enable;
 reg [`R_SIZE-1:0] register_write_addr;
-reg [`R_SIZE-1:0] register_read1_addr;
-reg [`R_SIZE-1:0] register_read2_addr;
 reg [`D_SIZE-1:0] register_data_in;
-wire [`D_SIZE-1:0] register_data1_out;
-wire [`D_SIZE-1:0] register_data2_out;
-reg_module registers(
-    .rst(rst),
-    .clk(clk),
-    .write_enable(register_write_enable),
-    .write_addr(register_write_addr),
-    .read1_addr(register_read1_addr),
-    .read2_addr(register_read2_addr),
-    .data_in(register_data_in),
-    .data1_out(register_data1_out),
-    .data2_out(register_data2_out)
-);
-
-/*ALU signals*/
-reg [`D_SIZE-1:0] op1;
-reg [`D_SIZE-1:0] op2;
-reg [6:0] opcode;
-wire [`D_SIZE-1:0] result;
-alu_module alu(
-    .op1(op1),
-    .op2(op2),
-    .opcode(opcode),
-    .result(result)
-);
 
 /*CPU signals*/
 reg [`A_SIZE-1:0] pc_next;
+reg [`D_SIZE-1:0] registers [0:`R_NUM-1]; // 8 internal registers R0 to R7
+integer idx;
 
 /*Decoding current instruction*/
 always@(*) begin
     pc_next = pc;
-    op1 = 0;
-    op2 = 0;
-    register_read1_addr = 0;
-    register_read2_addr = 0;
+    read = 0;
+    write = 0;
+    address = 0;
+    data_out = 0;
+    register_data_in = 0;
+    register_write_addr = 0;
     if (instruction == `NOP) begin
         pc_next = pc + 1;
     end else if (instruction == `HALT) begin
         pc_next = pc;
     end else if (instruction[15:14] == `ARITHMETIC) begin
         pc_next = pc + 1;
-        opcode = instruction[15:9];
-        register_write_addr = instruction[8:6]; // op0
         /*read from registers*/
-        register_read1_addr = instruction[5:3]; // op1
-        register_read2_addr = instruction[2:0]; // op1
-        /*pass register values to ALU*/
-        op1 = register_data1_out;
-        op2 = register_data2_out;
-        /*store the result*/
-        register_data_in = result;
+        register_write_addr = instruction[8:6]; // op0
+        case (instruction[15:9])
+            `ADD:
+                register_data_in = registers[instruction[5:3]] + registers[instruction[2:0]];
+            `ADDF:
+                register_data_in = registers[instruction[5:3]] + registers[instruction[2:0]];
+            `SUB:
+                register_data_in = registers[instruction[5:3]] - registers[instruction[2:0]];
+            `SUBF:
+                register_data_in = registers[instruction[5:3]] - registers[instruction[2:0]];
+            `AND:
+                register_data_in = registers[instruction[5:3]] & registers[instruction[2:0]];
+            `OR:
+                register_data_in = registers[instruction[5:3]] || registers[instruction[2:0]];
+            `XOR:
+                register_data_in = registers[instruction[5:3]] ^ registers[instruction[2:0]];
+            `NAND:
+                register_data_in = ~(registers[instruction[5:3]] & registers[instruction[2:0]]);
+            `NXOR:
+                register_data_in = ~(registers[instruction[5:3]] || registers[instruction[2:0]]);
+        endcase
     end else if(instruction[15:14] == `SHIFT) begin
         pc_next = pc + 1;
-        opcode = instruction[15:9];
         register_write_addr = instruction[8:6]; // op0
-        /*read from register*/
-        register_read1_addr = instruction[8:6]; // op1
         /*pass values to ALU*/
-        op1 = register_data1_out;
-        op2 = instruction[5:0];
-        /*store the result*/
-        register_data_in = result;
+        case (instruction[15:9])
+            `SHIFTR:
+                register_data_in = registers[instruction[8:6]] >> instruction[5:0];
+            `SHIFTRA:
+                register_data_in = registers[instruction[8:6]] >>> instruction[5:0];
+            `SHIFTL:
+                register_data_in = registers[instruction[8:6]] << instruction[5:0];
+        endcase
     end else if (instruction[15:14] == `MEM) begin
         pc_next = pc + 1;
-        if (instruction[15:11] == `LOADC) begin
-            register_read1_addr = instruction[10:8];
+        if (instruction[15:11] == `LOAD) begin
+            /*assign ram addres*/
+            address = registers[instruction[2:0]];
+            /*set register write addres*/
             register_write_addr = instruction[10:8];
-            register_data_in = {register_data1_out[`D_SIZE-1:8], instruction[7:0]};
+            /*enable reading from ram*/
+            read = 1'b1;
+            /*write value from ram*/
+            register_data_in = data_in;
+        end else if (instruction[15:11] == `LOADC) begin
+            register_write_addr = instruction[10:8];
+            register_data_in = {registers[instruction[10:8]][`D_SIZE-1:8], instruction[7:0]};
+        end else if (instruction[15:11] == `STORE) begin
+            /*assign ram address*/
+            address = registers[instruction[10:8]];
+            /*enable writing to ram*/
+            write = 1'b1;
+            /*write value to ram*/
+            data_out = registers[instruction[2:0]];
         end
     end else if (instruction[15:14] == `COND) begin
         case (instruction[15:12])
             `JMP: begin
-                register_read1_addr = instruction[2:0];
-                pc_next = register_data1_out[`A_SIZE:0];
+                pc_next = registers[instruction[2:0]][`A_SIZE:0];
              end
             `JMPR: begin
                 pc_next = pc + ({{`A_SIZE-6{instruction[5]}},instruction[5:0]});
              end
              `JMPcond: begin
-                /*read op0*/
-                register_read1_addr = instruction[8:6];
-                /*read op1*/
-                register_read2_addr = instruction[2:0];
                 case (instruction[11:9])
                    `N: begin
-                        if (register_data1_out[`D_SIZE-1] == 1'b1) begin
-                            pc_next = pc + register_data2_out[`A_SIZE-1:0];
-                        end
+                        if (registers[instruction[8:6]][`D_SIZE-1] == 1'b1) begin
+                            pc_next = registers[instruction[2:0]][`A_SIZE-1:0];
+                        end else pc_next = pc + 1;
                     end
                     `NN: begin
-                        if (register_data1_out[`D_SIZE-1] == 1'b0) begin
-                            pc_next = pc + register_data2_out[`A_SIZE-1:0];
-                        end
+                        if (registers[instruction[8:6]][`D_SIZE-1] == 1'b0) begin
+                            pc_next = registers[instruction[2:0]][`A_SIZE-1:0];
+                        end else pc_next = pc + 1;
                     end
                     `Z: begin
-                        if (register_data1_out == `D_SIZE'd0) begin
-                            pc_next = pc + register_data2_out[`A_SIZE-1:0];
-                        end
+                        if (registers[instruction[8:6]] == `D_SIZE'd0) begin
+                            pc_next = registers[instruction[2:0]][`A_SIZE-1:0];
+                        end else pc_next = pc + 1;
                     end
                     `NZ: begin
-                        if (register_data1_out != `D_SIZE'd0) begin
-                            pc_next = pc + register_data2_out[`A_SIZE-1:0];
-                        end
+                        if (registers[instruction[8:6]] != `D_SIZE'd0) begin
+                            pc_next = registers[instruction[2:0]][`A_SIZE-1:0];
+                        end else pc_next = pc + 1;
                     end
                 endcase
              end
              `JMPRcond: begin
-                /*read op0*/
-                register_read1_addr = instruction[8:6];
                 case (instruction[11:9])
                    `N: begin
-                        if (register_data1_out[`D_SIZE-1] == 1'b1) begin
+                        if (registers[instruction[8:6]][`D_SIZE-1] == 1'b1) begin
                             pc_next = pc + ({{`A_SIZE-6{instruction[5]}},instruction[5:0]});
-                        end
+                        end else pc_next = pc + 1;
                     end
                     `NN: begin
-                        if (register_data1_out[`D_SIZE-1] == 1'b0) begin
+                        if (registers[instruction[8:6]][`D_SIZE-1] == 1'b0) begin
                             pc_next = pc + ({{`A_SIZE-6{instruction[5]}},instruction[5:0]});
-                        end
+                        end else pc_next = pc + 1;
                     end
                     `Z: begin
-                        if (register_data1_out == `D_SIZE'd0) begin
+                        if (registers[instruction[8:6]] == `D_SIZE'd0) begin
                             pc_next = pc + ({{`A_SIZE-6{instruction[5]}},instruction[5:0]});
-                        end
+                        end else pc_next = pc + 1;
                     end
                     `NZ: begin
-                        if (register_data1_out != `D_SIZE'd0) begin
+                        if (registers[instruction[8:6]] != `D_SIZE'd0) begin
                             pc_next = pc + ({{`A_SIZE-6{instruction[5]}},instruction[5:0]});
-                        end
+                        end else pc_next = pc + 1;
                     end
                 endcase
              end
@@ -182,15 +180,21 @@ end
 
 always@(posedge clk) begin
 /*Update program counter for accessing next instruction*/
-    register_write_enable = 1'b0;
     if(rst == 1'b1) begin
         pc <= pc_next;
         if(instruction[15:14] == `ARITHMETIC || instruction[15:14] == `SHIFT || instruction[15:14] == `MEM) begin
-            register_write_enable = 1'b1;
+            registers[register_write_addr] = register_data_in;
         end
     end else begin
+        for (idx = 0; idx < `R_NUM; idx = idx + 1) begin
+            registers[idx] <= 0;
+        end
         pc <= 0;
         pc_next <= 0;
+        read <= 0;
+        write <= 0;
+        data_out <= 0;
+        address <='bx;
     end
 end
 

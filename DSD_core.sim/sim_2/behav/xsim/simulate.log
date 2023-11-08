@@ -1,24 +1,2 @@
 Time resolution is 1 ps
-Stopped at time : 6 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 15 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 25 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 35 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 45 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 55 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 65 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 75 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 85 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 95 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 105 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 115 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 125 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 135 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 145 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 155 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 165 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 175 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 185 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 195 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 205 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-Stopped at time : 215 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 96
-$finish called at time : 215 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 101
+$finish called at time : 235 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sim_2/new/seq_core_tb.v" Line 111

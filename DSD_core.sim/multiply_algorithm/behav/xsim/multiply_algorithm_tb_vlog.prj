@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../DSD_core.srcs/sources_1/new" \
+"../../../../DSD_core.srcs/sources_1/new/ram.v" \
+"../../../../DSD_core.srcs/sources_1/new/reg_module.v" \
+"../../../../DSD_core.srcs/sources_1/new/seq_core.v" \
+"../../../../DSD_core.srcs/multiply_algorithm/new/multiply_algorithm_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

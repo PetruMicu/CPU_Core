@@ -3,12 +3,12 @@
 # SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Tue Nov  7 02:28:08 2023
-# Process ID: 74640
+# Start of session at: Wed Nov  8 02:42:00 2023
+# Process ID: 35284
 # Current directory: /home/petru/Facultate/DSD/DSD_Core/DSD_core.runs/synth_1
-# Command line: vivado -log seq_core.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source seq_core.tcl
-# Log file: /home/petru/Facultate/DSD/DSD_Core/DSD_core.runs/synth_1/seq_core.vds
+# Command line: vivado -log alu_module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source alu_module.tcl
+# Log file: /home/petru/Facultate/DSD/DSD_Core/DSD_core.runs/synth_1/alu_module.vds
 # Journal file: /home/petru/Facultate/DSD/DSD_Core/DSD_core.runs/synth_1/vivado.jou
 # Running On: PetruMint, OS: Linux, CPU Frequency: 3000.000 MHz, CPU Physical cores: 12, Host memory: 32742 MB
 #-----------------------------------------------------------
-source seq_core.tcl -notrace
+source alu_module.tcl -notrace

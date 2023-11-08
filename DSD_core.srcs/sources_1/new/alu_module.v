@@ -54,6 +54,7 @@ always@(op1, op2, opcode) begin
             result = op1 >>> op2;
         `SHIFTL:
             result = op1 << op2;
+        default: result = 0;
     endcase
 end
 endmodule

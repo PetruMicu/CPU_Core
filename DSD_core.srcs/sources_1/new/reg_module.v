@@ -29,31 +29,27 @@ module reg_module(
     input [`R_SIZE-1:0] read1_addr,
     input [`R_SIZE-1:0] read2_addr,
     input [`D_SIZE-1:0] data_in,
-    output [`D_SIZE-1:0] data1_out,
-    output [`D_SIZE-1:0] data2_out
+    output wire [`D_SIZE-1:0] data1_out,
+    output wire [`D_SIZE-1:0] data2_out
     );
     
 reg [`D_SIZE-1:0] registers [0:`R_NUM-1]; // 8 internal registers R0 to R7
 integer idx;
 
-/*resetting all register if reset signal is logic 0*/
-always@(*) begin
+
+/*synchronous writing and resetting on positive edge of the clk*/
+always@(posedge clk or negedge rst) begin
     if (rst == 1'b0) begin
         for (idx = 0; idx < `R_NUM; idx = idx + 1) begin
             registers[idx] <= 0;
         end
-    end
-end
-
-/*synchronous writing on positive edge of the clk*/
-always@(posedge clk) begin
-    if (write_enable == 1'b1 && rst == 1'b1) begin
+    end else if (write_enable == 1'b1) begin
         registers[write_addr] = data_in;
     end
 end
 
 /*asynhronous reading*/
-assign data1_out = registers[read1_addr];
-assign data2_out = registers[read2_addr];
+assign data1_out = (rst == 1'b0) ? 0 : registers[read1_addr];
+assign data2_out = (rst == 1'b0) ? 0 : registers[read2_addr];
 
 endmodule

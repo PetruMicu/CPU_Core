@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "/home/petru/Facultate/DSD/DSD_Core/DSD_core.runs/synth_1/seq_core.tcl"
+  variable script "/home/petru/Facultate/DSD/DSD_Core/DSD_core.runs/synth_1/alu_module.tcl"
   variable category "vivado_synth"
 }
 
@@ -86,11 +86,7 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog /home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/macros.vh
-read_verilog -library xil_defaultlib {
-  /home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/alu_module.v
-  /home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/reg_module.v
-  /home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/seq_core.v
-}
+read_verilog -library xil_defaultlib /home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/sources_1/new/alu_module.v
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -106,7 +102,7 @@ read_checkpoint -auto_incremental -incremental /home/petru/Facultate/DSD/DSD_Cor
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top seq_core -part xa7z020clg400-1Q
+synth_design -top alu_module -part xa7z020clg400-1Q
 OPTRACE "synth_design" END { }
 if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
  send_msg_id runtcl-6 info "Synthesis results are not added to the cache due to CRITICAL_WARNING"
@@ -116,10 +112,10 @@ if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
 OPTRACE "write_checkpoint" START { CHECKPOINT }
 # disable binary constraint mode for synth run checkpoints
 set_param constraints.enableBinaryConstraints false
-write_checkpoint -force -noxdef seq_core.dcp
+write_checkpoint -force -noxdef alu_module.dcp
 OPTRACE "write_checkpoint" END { }
 OPTRACE "synth reports" START { REPORT }
-create_report "synth_1_synth_report_utilization_0" "report_utilization -file seq_core_utilization_synth.rpt -pb seq_core_utilization_synth.pb"
+create_report "synth_1_synth_report_utilization_0" "report_utilization -file alu_module_utilization_synth.rpt -pb alu_module_utilization_synth.pb"
 OPTRACE "synth reports" END { }
 file delete __synthesis_is_running__
 close [open __synthesis_is_complete__ w]

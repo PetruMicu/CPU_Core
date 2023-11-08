@@ -7,6 +7,9 @@
 /* Instruction size*/
 `define I_SIZE 16
 
+/*RAM size*/
+`define RAM_SIZE 128
+
 /*CPU Registers*/
 `define R_NUM 8
 `define R_SIZE 3
