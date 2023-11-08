@@ -24565,3 +24565,981 @@ selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_l
 // TclEventType: WAVEFORM_UPDATE_WAVEFORM
 // TclEventType: WAVEFORM_MODEL_EVENT
 selectCodeEditor("multiply_algorithm_tb.v", 511, 332); // ad
+// Elapsed time: 81 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 341, 315); // ad
+// Elapsed time: 105 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 240, 618); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 324, 664); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 330, 709); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 370, 758); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 201, 698); // ad
+typeControlKey((HResource) null, "multiply_algorithm_tb.v", 'c'); // ad
+typeControlKey((HResource) null, "multiply_algorithm_tb.v", 'v'); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 138, 704); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 139, 705, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("multiply_algorithm_tb.v", 138, 709); // ad
+typeControlKey((HResource) null, "multiply_algorithm_tb.v", 'v'); // ad
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("multiply_algorithm_tb.v", 141, 708); // ad
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("multiply_algorithm_tb.v", 381, 749); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 398, 768); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 382, 751); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 142, 685); // ad
+typeControlKey((HResource) null, "multiply_algorithm_tb.v", 'v'); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 100, 699); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 26, 698); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 400, 700); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 314, 760); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 305, 756); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 389, 697); // ad
+// Elapsed time: 15 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 294, 755); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 25, 754); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 303, 753); // ad
+// Elapsed time: 10 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 96, 693); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 295, 755); // ad
+typeControlKey((HResource) null, "multiply_algorithm_tb.v", 'c'); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 75, 781); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 78, 769); // ad
+typeControlKey((HResource) null, "multiply_algorithm_tb.v", 'v'); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 97, 767); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 152, 777); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 152, 777, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 29 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 24, 610); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 567, 601); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 210, 608); // ad
+// Elapsed time: 15 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 315, 607); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 315, 607, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("multiply_algorithm_tb.v", 476, 610); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 303, 620); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 324, 605); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 312, 627); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 312, 627, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("multiply_algorithm_tb.v", 545, 627); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 329, 604); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 550, 735); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 210, 622); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 411, 638); // ad
+// Elapsed time: 11 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 284, 642); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 284, 642); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 280, 637); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 451, 654); // ad
+// Elapsed time: 33 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 274, 656); // ad
+// Elapsed time: 13 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 454, 731); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 342, 652); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 285, 656); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 578, 671); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 407, 702); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 578, 662); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 590, 667); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 590, 667, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("multiply_algorithm_tb.v", 437, 658); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 95, 689); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 175, 686); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 175, 686, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("multiply_algorithm_tb.v", 159, 686); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 355, 687); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 354, 687, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("multiply_algorithm_tb.v", 370, 691); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 358, 686); // ad
+// Elapsed time: 12 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 389, 712); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 288, 685); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 282, 691); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 282, 691, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("multiply_algorithm_tb.v", 283, 690); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 279, 685); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 321, 683); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 107, 715); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 108, 743); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 122, 759); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 315, 773); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 300, 682); // ad
+// Elapsed time: 13 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 486, 721); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 413, 690); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 419, 681); // ad
+// Elapsed time: 13 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 517, 674); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 511, 706); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 538, 687); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 185, 687); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 185, 687, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 25 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 235, 686); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 269, 682); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 269, 682, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 562, 686); // ad
+// Elapsed time: 12 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 302, 722); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 157, 716); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 157, 716, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("multiply_algorithm_tb.v", 188, 711); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 188, 711, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("multiply_algorithm_tb.v", 228, 715); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 228, 715, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("multiply_algorithm_tb.v", 256, 717); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 272, 717); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 256, 716); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 256, 716, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("multiply_algorithm_tb.v", 489, 626); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 512, 627); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 267, 709); // ad
+// Elapsed time: 19 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 401, 736); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 193, 744); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 193, 744, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("multiply_algorithm_tb.v", 197, 760); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 192, 735); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 196, 750); // ad
+// Elapsed time: 16 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 295, 763); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 154, 760); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 154, 760, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("multiply_algorithm_tb.v", 189, 760); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 189, 760, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 620, 684); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 348, 776); // ad
+// Elapsed time: 11 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 156, 762); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 156, 762, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "multiply_algorithm_tb.v", 'v'); // ad
+typeControlKey(null, null, 'z');
+selectCodeEditor("multiply_algorithm_tb.v", 182, 757); // ad
+// Elapsed time: 60 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 387, 779); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 289, 753); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 238, 746); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 238, 746, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("multiply_algorithm_tb.v", 218, 719); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 218, 719, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("multiply_algorithm_tb.v", 223, 686); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 220, 686, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 257, 726); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 235, 756); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 235, 756, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "multiply_algorithm_tb.v", 'v'); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 279, 758); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 276, 758); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 467, 684); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 343, 798); // ad
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 03h:21m:47s
+// Elapsed Time for: 'L.f': 03h:21m:49s
+selectCodeEditor("multiply_algorithm_tb.v", 342, 770); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 340, 753); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 400, 762); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 505, 753); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 450, 846); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 507, 761); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 343, 787); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 341, 771); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 210, 776); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 210, 776, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("multiply_algorithm_tb.v", 385, 804); // ad
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 03h:22m:23s
+// Elapsed Time for: 'L.f': 03h:22m:25s
+// HMemoryUtils.trashcanNow. Engine heap size: 6,168 MB. GUI used memory: 150 MB. Current time: 11/8/23, 2:58:04 AM EET
+selectCodeEditor("multiply_algorithm_tb.v", 571, 274); // ad
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: relaunch_sim 
+// Tcl Message: Command: launch_simulation -step compile -simset multiply_algorithm -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'multiply_algorithm_tb' INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'multiply_algorithm' INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' 
+// Tcl Message: xvlog --incr --relax -prj multiply_algorithm_tb_vlog.prj 
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds 
+// Tcl Message: Command: launch_simulation -step elaborate -simset multiply_algorithm -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'multiply_algorithm_tb' INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'multiply_algorithm' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' 
+// Tcl Message: xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiply_algorithm_tb_behav xil_defaultlib.multiply_algorithm_tb xil_defaultlib.glbl -log elaborate.log 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: SIMULATION_ADD_BREAKPOINT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps Stopped at time : 6 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/multiply_algorithm/new/multiply_algorithm_tb.v" Line 104 
+dismissDialog("Relaunch Simulation"); // b
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 5", 5); // o
+// HMemoryUtils.trashcanNow. Engine heap size: 6,168 MB. GUI used memory: 150 MB. Current time: 11/8/23, 2:58:17 AM EET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiply_algorithm_tb.v", 2); // o
+// TclEventType: SIMULATION_DELETE_BREAKPOINT
+// Tcl Message: remove_bps -file {/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/multiply_algorithm/new/multiply_algorithm_tb.v} -line 104 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: relaunch_sim 
+// Tcl Message: Command: launch_simulation -step compile -simset multiply_algorithm -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'multiply_algorithm_tb' INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'multiply_algorithm' INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' 
+// Tcl Message: xvlog --incr --relax -prj multiply_algorithm_tb_vlog.prj 
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: Waiting for jobs to finish... No pending jobs, compilation finished. 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds 
+// Tcl Message: Command: launch_simulation -step elaborate -simset multiply_algorithm -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'multiply_algorithm_tb' INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'multiply_algorithm' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' 
+// Tcl Message: xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiply_algorithm_tb_behav xil_defaultlib.multiply_algorithm_tb xil_defaultlib.glbl -log elaborate.log 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Vivado Simulator v2023.1 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved. Running: /tools/Xilinx/Vivado/2023.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiply_algorithm_tb_behav xil_defaultlib.multiply_algorithm_tb xil_defaultlib.glbl -log elaborate.log  Using 8 slave threads. Starting static elaboration Pass Through NonSizing Optimizer Completed static elaboration INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '0' seconds 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps $finish called at time : 75 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/multiply_algorithm/new/multiply_algorithm_tb.v" Line 110 
+dismissDialog("Relaunch Simulation"); // b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 5", 5); // o
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "ram ; ram_module ; Verilog Module", 2, "ram", 0, false); // c
+// TclEventType: SIMULATION_REQUEST_SELECT_SCOPES
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "ram_array[0:127][31:0] ; XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,00000000,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXX ; Array", 6, "ram_array[0:127][31:0]", 0, true); // c - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "[5][31:0] ; 00000000 ; Array", 12, "00000000", 1, true); // c - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "alu_module.v", 4); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiply_algorithm_tb.v", 2); // o
+// TclEventType: SIMULATION_ADD_BREAKPOINT
+// Tcl Message: add_bp {/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/multiply_algorithm/new/multiply_algorithm_tb.v} 104 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: relaunch_sim 
+// Tcl Message: Command: launch_simulation -step compile -simset multiply_algorithm -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'multiply_algorithm_tb' INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'multiply_algorithm' INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' 
+// Tcl Message: xvlog --incr --relax -prj multiply_algorithm_tb_vlog.prj 
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: Waiting for jobs to finish... No pending jobs, compilation finished. 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds 
+// Tcl Message: Command: launch_simulation -step elaborate -simset multiply_algorithm -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'multiply_algorithm_tb' INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'multiply_algorithm' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' 
+// Tcl Message: xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiply_algorithm_tb_behav xil_defaultlib.multiply_algorithm_tb xil_defaultlib.glbl -log elaborate.log 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Vivado Simulator v2023.1 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved. Running: /tools/Xilinx/Vivado/2023.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiply_algorithm_tb_behav xil_defaultlib.multiply_algorithm_tb xil_defaultlib.glbl -log elaborate.log  Using 8 slave threads. Starting static elaboration Pass Through NonSizing Optimizer Completed static elaboration INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: SIMULATION_ADD_BREAKPOINT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps Stopped at time : 6 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/multiply_algorithm/new/multiply_algorithm_tb.v" Line 104 
+dismissDialog("Relaunch Simulation"); // b
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // B
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 10 us 
+// Tcl Message: Stopped at time : 15 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/multiply_algorithm/new/multiply_algorithm_tb.v" Line 104 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // B
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 10 us 
+// Tcl Message: Stopped at time : 25 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/multiply_algorithm/new/multiply_algorithm_tb.v" Line 104 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // B
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 10 us 
+// Tcl Message: Stopped at time : 35 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/multiply_algorithm/new/multiply_algorithm_tb.v" Line 104 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // B
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 10 us 
+// Tcl Message: Stopped at time : 45 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/multiply_algorithm/new/multiply_algorithm_tb.v" Line 104 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // B
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 10 us 
+// Tcl Message: Stopped at time : 55 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/multiply_algorithm/new/multiply_algorithm_tb.v" Line 104 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // B
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 10 us 
+// Tcl Message: Stopped at time : 65 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/multiply_algorithm/new/multiply_algorithm_tb.v" Line 104 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectCodeEditor("multiply_algorithm_tb.v", 223, 563); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 223, 563, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("multiply_algorithm_tb.v", 234, 570); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 224, 563); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 595, 545); // ad
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 03h:23m:31s
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// Tcl Message: relaunch_sim 
+// Tcl Message: Command: launch_simulation -step compile -simset multiply_algorithm -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'multiply_algorithm_tb' 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'multiply_algorithm' INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' 
+// Tcl Message: xvlog --incr --relax -prj multiply_algorithm_tb_vlog.prj 
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds 
+// Tcl Message: Command: launch_simulation -step elaborate -simset multiply_algorithm -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'multiply_algorithm_tb' INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'multiply_algorithm' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' 
+// Tcl Message: xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiply_algorithm_tb_behav xil_defaultlib.multiply_algorithm_tb xil_defaultlib.glbl -log elaborate.log 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: SIMULATION_ADD_BREAKPOINT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps Stopped at time : 6 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/multiply_algorithm/new/multiply_algorithm_tb.v" Line 104 
+// 'a' command handler elapsed time: 3 seconds
+dismissDialog("Relaunch Simulation"); // b
+// Elapsed Time for: 'L.f': 03h:23m:35s
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_DELETE_BREAKPOINT
+// Tcl Message: remove_bps -file {/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/multiply_algorithm/new/multiply_algorithm_tb.v} -line 104 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: relaunch_sim 
+// Tcl Message: Command: launch_simulation -step compile -simset multiply_algorithm -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'multiply_algorithm_tb' INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'multiply_algorithm' INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' 
+// Tcl Message: xvlog --incr --relax -prj multiply_algorithm_tb_vlog.prj 
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: Waiting for jobs to finish... No pending jobs, compilation finished. 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '0' seconds 
+// Tcl Message: Command: launch_simulation -step elaborate -simset multiply_algorithm -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'multiply_algorithm_tb' INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'multiply_algorithm' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' 
+// Tcl Message: xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiply_algorithm_tb_behav xil_defaultlib.multiply_algorithm_tb xil_defaultlib.glbl -log elaborate.log 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Vivado Simulator v2023.1 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved. Running: /tools/Xilinx/Vivado/2023.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiply_algorithm_tb_behav xil_defaultlib.multiply_algorithm_tb xil_defaultlib.glbl -log elaborate.log  Using 8 slave threads. Starting static elaboration Pass Through NonSizing Optimizer Completed static elaboration INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps $finish called at time : 275 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/multiply_algorithm/new/multiply_algorithm_tb.v" Line 110 
+dismissDialog("Relaunch Simulation"); // b
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "ram ; ram_module ; Verilog Module", 2, "ram", 0, false); // c
+// TclEventType: SIMULATION_REQUEST_SELECT_SCOPES
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "ram_array[0:127][31:0] ; 0000000a,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXX ; Array", 6, "ram_array[0:127][31:0]", 0, true); // c - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "[0][31:0] ; 0000000a ; Array", 7, "0000000a", 1, true); // c - Node
+selectCodeEditor("multiply_algorithm_tb.v", 250, 492); // ad
+selectCodeEditor("multiply_algorithm_tb.v", 466, 400); // ad
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 03h:23m:59s
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: relaunch_sim 
+// Tcl Message: Command: launch_simulation -step compile -simset multiply_algorithm -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'multiply_algorithm_tb' INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'multiply_algorithm' INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' 
+// Tcl Message: xvlog --incr --relax -prj multiply_algorithm_tb_vlog.prj 
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds 
+// Tcl Message: Command: launch_simulation -step elaborate -simset multiply_algorithm -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'multiply_algorithm_tb' INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'multiply_algorithm' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/petru/Facultate/DSD/DSD_Core/DSD_core.sim/multiply_algorithm/behav/xsim' 
+// Tcl Message: xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiply_algorithm_tb_behav xil_defaultlib.multiply_algorithm_tb xil_defaultlib.glbl -log elaborate.log 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps $finish called at time : 195 ns : File "/home/petru/Facultate/DSD/DSD_Core/DSD_core.srcs/multiply_algorithm/new/multiply_algorithm_tb.v" Line 110 
+dismissDialog("Relaunch Simulation"); // b
+// Elapsed Time for: 'L.f': 03h:24m:05s
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "ram ; ram_module ; Verilog Module", 2, "ram", 0, false); // c
+// TclEventType: SIMULATION_REQUEST_SELECT_SCOPES
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// HMemoryUtils.trashcanNow. Engine heap size: 6,189 MB. GUI used memory: 152 MB. Current time: 11/8/23, 2:59:44 AM EET
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "ram ; ram_module ; Verilog Module", 2, "ram", 0, false); // c
+// TclEventType: SIMULATION_REQUEST_SELECT_SCOPES
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "ram ; ram_module ; Verilog Module", 2, "ram", 0, false, false, false, false, false, true); // c - Double Click
+// TclEventType: SIMULATION_REQUEST_SELECT_SCOPES
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_OPEN_SOURCE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "ram_array[0:127][31:0] ; 00000015,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXX ; Array", 6, "ram_array[0:127][31:0]", 0, true); // c - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "[0][31:0] ; 00000015 ; Array", 7, "00000015", 1, true); // c - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "[0][31:0] ; 00000015 ; Array", 7, "00000015", 1, true, false, false, false, true, false); // c - Popup Trigger - Node
+selectMenu("Radix"); // al
+selectMenu("Radix"); // al
+selectMenu("Radix"); // al
+selectMenuItem((HResource) null, "Unsigned Decimal"); // ac
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+selectCodeEditor("ram.v", 683, 449); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_module.v", 3); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiply_algorithm_tb.v", 2); // o

@@ -80,18 +80,18 @@ endtask
   initial begin
   
     prog_mem[0] = {`NOP};
-    prog_mem[1] = {`LOADC, `R1, 8'd2}; // num1 - to be multiplied
-    prog_mem[2] = {`LOADC, `R2, 8'd5}; // num2 - numberrs of multiplies - index
-    prog_mem[3] = {`LOADC, `R3, 8'd0};  // CLEARED RESULT
-    prog_mem[4] = {`LOADC, `R0, 8'd1}; // used for decrementing
-    prog_mem[5] = {`LOADC, `R4, 8'd6}; // pointer to the start of multiply loop
+    prog_mem[1] = {`LOADC, `R0, 8'd7}; // i - number to be multiplied
+    prog_mem[2] = {`LOADC, `R1, 8'd3}; // n - numberrs of multiplies
+    prog_mem[3] = {`LOADC, `R3, 8'd0}; // result - initial value is 0
+    prog_mem[4] = {`LOADC, `R4, 8'd1}; // decrement value
     
+    prog_mem[5] = {`JMPRcond, `Z, `R1, 6'd4}; // jumps to prog_mem[9] if R1 reaches 0
     // multiply loop
-    prog_mem[6] = {`ADD, `R3, `R3, `R1};
+    prog_mem[6] = {`ADD, `R3, `R3, `R0}; // result = result + i
    
-    prog_mem[7] = {`SUB, `R2, `R2, `R0};
-    prog_mem[8] = {`JMPcond, `NZ, `R2, 3'b000, `R4};
-    prog_mem[9] = {`STORE, `R6, 5'b0, `R3};
+    prog_mem[7] = {`SUB, `R1, `R1, `R4}; // n = n - 1 
+    prog_mem[8] = {`JMPR, 6'd0, 6'b11_1101}; // jumps to prog_mem[5]
+    prog_mem[9] = {`STORE, `R1, 5'b0, `R3}; 
     prog_mem[10] = {`HALT};
     instruction = prog_mem[0];
     
